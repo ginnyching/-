@@ -1,0 +1,1209 @@
+{
+ "cwbdata": {
+  "@xmlns": "urn:cwb.gov.tw:cwbdata-0.1",
+  "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+  "@xsi:schemaLocation": "urn:cwb.gov.tw:cwbdata-0.1 http://odtest.cwb.gov.tw/XSD/CWB-data-0.1.xsd",
+  "identifier": "472c7047-eb48-4aa1-8fc0-9be46a234889",
+  "datasetID": "F-AMD-2001",
+  "datasetName": "農業氣象預報",
+  "dataItemID": "F-AMD-2001-00001",
+  "sender": "weather@cwb.gov.tw",
+  "sent": "2022-05-27T18:39:58+08:00",
+  "status": "Actual",
+  "scope": "Public",
+  "msgType": "Issue",
+  "publisherOID": "2.16.886.101.20003.20008.20004",
+  "resources": {
+   "resource": {
+    "metadata": {
+     "resourceName": "中央氣象局氣候服務_農業氣象一週預報",
+     "resourceDescription": "提供氣象局預報資料和農事建議，供農業相關單位及農民參考",
+     "language": "zh",
+     "homepage": "https://www.cwb.gov.tw/V7/forecast/week/w44.htm",
+     "sources": {
+      "source": [
+       {
+        "title": "1週預報",
+        "path": "https://www.cwb.gov.tw/V7/forecast/week/week.htm"
+       },
+       {
+        "title": "長期天氣預報-季長期天氣展望",
+        "path": "https://opendata.cwb.gov.tw/catalog%3fgroup%3df%26dataid%3dA0013-002"
+       },
+       {
+        "title": "天氣特報-豪大雨特報",
+        "path": "https://opendata.cwb.gov.tw/catalog%3fgroup%3dw%26dataid%3dC0033-003"
+       }
+      ]
+     },
+     "temporal": {
+      "issueTime": "2022-05-27T17:00:00+08:00",
+      "validTime": {
+       "startTime": "2022-05-28T00:00:00+08:00",
+       "endTime": "2022-06-04T00:00:00+08:00"
+      }
+     },
+     "weatherElements": {
+      "weatherElement": [
+       {
+        "tagName": "weather",
+        "description": "天氣描述"
+       },
+       {
+        "tagName": "temperature",
+        "description": "氣溫",
+        "units": "˚C"
+       },
+       {
+        "tagName": "agrWeatherForecasts",
+        "description": "一週農業天氣預報"
+       },
+       {
+        "tagName": "weatherProfile",
+        "description": "天氣概況"
+       },
+       {
+        "tagName": "weatherForecasts",
+        "description": "天氣預報"
+       },
+       {
+        "tagName": "agrAdvices",
+        "description": "農事建議"
+       },
+       {
+        "tagName": "degreeDay",
+        "description": "度日(植物發育時所需之有效溫度單位)",
+        "units": "GDD"
+       },
+       {
+        "tagName": "accumulatedTemperature",
+        "description": "積溫(植物發育過程中，當各生育階段有效溫度累積至一定數值時，即可完成發育。該數值即稱為此一發育階段所需的積溫。)",
+        "units": "ATU"
+       },
+       {
+        "tagName": "cardinalTemperatures",
+        "description": "作物生長溫度區間",
+        "units": "˚C",
+        "statisticalMethods": {
+         "statisticalMethod": [
+          {
+           "methodTagName": "minimum",
+           "description": "生長最低溫"
+          },
+          {
+           "methodTagName": "maximum",
+           "description": "生長最高溫"
+          },
+          {
+           "methodTagName": "optimum",
+           "description": "生長最適溫"
+          }
+         ]
+        }
+       },
+       {
+        "tagName": "growingDays",
+        "description": "生育日數"
+       },
+       {
+        "tagName": "cropStatistics",
+        "description": "農業積溫統計"
+       },
+       {
+        "tagName": "agrReport",
+        "description": "其他建議"
+       },
+       {
+        "tagName": "section",
+        "description": "其他建議主段落"
+       },
+       {
+        "tagName": "subsection",
+        "description": "其他建議副段落"
+       }
+      ]
+     }
+    },
+    "data": {
+     "agrWeatherForecasts": {
+      "weatherProfile": "28日西南風影響,中南部地區有局部短暫陣雨或雷雨,其他地區為多雲,午後有局部短暫雷陣雨,北部地區清晨亦有局部短暫陣雨。29日、30日各地為多雲到晴,午後山區及大臺北、東北部地區有局部短暫雷陣雨,南部地區清晨亦有零星短暫陣雨。31日至6月1日鋒面接近及西南風影響,西半部地區有局部短暫陣雨或雷雨,其他地區為多雲,午後有局部短暫雷陣雨。2日、3日西南風影響,中南部地區有局部短暫陣雨或雷雨,其他地區為多雲,午後有局部短暫雷陣雨。28日至30日夜晚清晨馬祖及金門地區易有局部霧或低雲影響能見度。鋒面影響期間,降雨區域及強度仍有不確定性,請留意氣象局發布之最新資訊。",
+      "weatherForecasts": {
+       "location": [
+        {
+         "locationName": "北部地區",
+         "weatherElements": {
+          "Wx": {
+           "daily": [
+            {
+             "dataDate": "2022-05-28",
+             "weather": "多雲午後短暫雷陣雨",
+             "weatherid": "22"
+            },
+            {
+             "dataDate": "2022-05-29",
+             "weather": "多雲時晴",
+             "weatherid": "3"
+            },
+            {
+             "dataDate": "2022-05-30",
+             "weather": "多雲午後短暫雷陣雨",
+             "weatherid": "22"
+            },
+            {
+             "dataDate": "2022-05-31",
+             "weather": "多雲時陰短暫陣雨或雷雨",
+             "weatherid": "16"
+            },
+            {
+             "dataDate": "2022-06-01",
+             "weather": "多雲短暫陣雨或雷雨",
+             "weatherid": "15"
+            },
+            {
+             "dataDate": "2022-06-02",
+             "weather": "多雲午後短暫雷陣雨",
+             "weatherid": "22"
+            },
+            {
+             "dataDate": "2022-06-03",
+             "weather": "多雲午後短暫雷陣雨",
+             "weatherid": "22"
+            }
+           ]
+          },
+          "MaxT": {
+           "daily": [
+            {
+             "dataDate": "2022-05-28",
+             "temperature": "31"
+            },
+            {
+             "dataDate": "2022-05-29",
+             "temperature": "32"
+            },
+            {
+             "dataDate": "2022-05-30",
+             "temperature": "31"
+            },
+            {
+             "dataDate": "2022-05-31",
+             "temperature": "29"
+            },
+            {
+             "dataDate": "2022-06-01",
+             "temperature": "29"
+            },
+            {
+             "dataDate": "2022-06-02",
+             "temperature": "30"
+            },
+            {
+             "dataDate": "2022-06-03",
+             "temperature": "30"
+            }
+           ]
+          },
+          "MinT": {
+           "daily": [
+            {
+             "dataDate": "2022-05-28",
+             "temperature": "22"
+            },
+            {
+             "dataDate": "2022-05-29",
+             "temperature": "23"
+            },
+            {
+             "dataDate": "2022-05-30",
+             "temperature": "24"
+            },
+            {
+             "dataDate": "2022-05-31",
+             "temperature": "23"
+            },
+            {
+             "dataDate": "2022-06-01",
+             "temperature": "23"
+            },
+            {
+             "dataDate": "2022-06-02",
+             "temperature": "23"
+            },
+            {
+             "dataDate": "2022-06-03",
+             "temperature": "22"
+            }
+           ]
+          }
+         }
+        },
+        {
+         "locationName": "中部地區",
+         "weatherElements": {
+          "Wx": {
+           "daily": [
+            {
+             "dataDate": "2022-05-28",
+             "weather": "多雲時陰短暫陣雨或雷雨",
+             "weatherid": "16"
+            },
+            {
+             "dataDate": "2022-05-29",
+             "weather": "多雲短暫陣雨",
+             "weatherid": "8"
+            },
+            {
+             "dataDate": "2022-05-30",
+             "weather": "多雲時晴",
+             "weatherid": "3"
+            },
+            {
+             "dataDate": "2022-05-31",
+             "weather": "多雲時陰短暫陣雨或雷雨",
+             "weatherid": "16"
+            },
+            {
+             "dataDate": "2022-06-01",
+             "weather": "多雲短暫陣雨或雷雨",
+             "weatherid": "15"
+            },
+            {
+             "dataDate": "2022-06-02",
+             "weather": "多雲短暫陣雨或雷雨",
+             "weatherid": "15"
+            },
+            {
+             "dataDate": "2022-06-03",
+             "weather": "多雲短暫陣雨或雷雨",
+             "weatherid": "15"
+            }
+           ]
+          },
+          "MaxT": {
+           "daily": [
+            {
+             "dataDate": "2022-05-28",
+             "temperature": "34"
+            },
+            {
+             "dataDate": "2022-05-29",
+             "temperature": "34"
+            },
+            {
+             "dataDate": "2022-05-30",
+             "temperature": "33"
+            },
+            {
+             "dataDate": "2022-05-31",
+             "temperature": "32"
+            },
+            {
+             "dataDate": "2022-06-01",
+             "temperature": "32"
+            },
+            {
+             "dataDate": "2022-06-02",
+             "temperature": "32"
+            },
+            {
+             "dataDate": "2022-06-03",
+             "temperature": "33"
+            }
+           ]
+          },
+          "MinT": {
+           "daily": [
+            {
+             "dataDate": "2022-05-28",
+             "temperature": "24"
+            },
+            {
+             "dataDate": "2022-05-29",
+             "temperature": "24"
+            },
+            {
+             "dataDate": "2022-05-30",
+             "temperature": "25"
+            },
+            {
+             "dataDate": "2022-05-31",
+             "temperature": "25"
+            },
+            {
+             "dataDate": "2022-06-01",
+             "temperature": "24"
+            },
+            {
+             "dataDate": "2022-06-02",
+             "temperature": "24"
+            },
+            {
+             "dataDate": "2022-06-03",
+             "temperature": "24"
+            }
+           ]
+          }
+         }
+        },
+        {
+         "locationName": "南部地區",
+         "weatherElements": {
+          "Wx": {
+           "daily": [
+            {
+             "dataDate": "2022-05-28",
+             "weather": "多雲時陰短暫陣雨或雷雨",
+             "weatherid": "16"
+            },
+            {
+             "dataDate": "2022-05-29",
+             "weather": "多雲",
+             "weatherid": "4"
+            },
+            {
+             "dataDate": "2022-05-30",
+             "weather": "陰時多雲短暫陣雨",
+             "weatherid": "10"
+            },
+            {
+             "dataDate": "2022-05-31",
+             "weather": "多雲短暫陣雨或雷雨",
+             "weatherid": "15"
+            },
+            {
+             "dataDate": "2022-06-01",
+             "weather": "多雲短暫陣雨或雷雨",
+             "weatherid": "15"
+            },
+            {
+             "dataDate": "2022-06-02",
+             "weather": "多雲短暫陣雨或雷雨",
+             "weatherid": "15"
+            },
+            {
+             "dataDate": "2022-06-03",
+             "weather": "多雲短暫陣雨或雷雨",
+             "weatherid": "15"
+            }
+           ]
+          },
+          "MaxT": {
+           "daily": [
+            {
+             "dataDate": "2022-05-28",
+             "temperature": "32"
+            },
+            {
+             "dataDate": "2022-05-29",
+             "temperature": "32"
+            },
+            {
+             "dataDate": "2022-05-30",
+             "temperature": "31"
+            },
+            {
+             "dataDate": "2022-05-31",
+             "temperature": "31"
+            },
+            {
+             "dataDate": "2022-06-01",
+             "temperature": "31"
+            },
+            {
+             "dataDate": "2022-06-02",
+             "temperature": "32"
+            },
+            {
+             "dataDate": "2022-06-03",
+             "temperature": "31"
+            }
+           ]
+          },
+          "MinT": {
+           "daily": [
+            {
+             "dataDate": "2022-05-28",
+             "temperature": "24"
+            },
+            {
+             "dataDate": "2022-05-29",
+             "temperature": "24"
+            },
+            {
+             "dataDate": "2022-05-30",
+             "temperature": "25"
+            },
+            {
+             "dataDate": "2022-05-31",
+             "temperature": "25"
+            },
+            {
+             "dataDate": "2022-06-01",
+             "temperature": "25"
+            },
+            {
+             "dataDate": "2022-06-02",
+             "temperature": "24"
+            },
+            {
+             "dataDate": "2022-06-03",
+             "temperature": "24"
+            }
+           ]
+          }
+         }
+        },
+        {
+         "locationName": "東北部地區",
+         "weatherElements": {
+          "Wx": {
+           "daily": [
+            {
+             "dataDate": "2022-05-28",
+             "weather": "多雲午後短暫雷陣雨",
+             "weatherid": "22"
+            },
+            {
+             "dataDate": "2022-05-29",
+             "weather": "多雲",
+             "weatherid": "4"
+            },
+            {
+             "dataDate": "2022-05-30",
+             "weather": "多雲午後短暫雷陣雨",
+             "weatherid": "22"
+            },
+            {
+             "dataDate": "2022-05-31",
+             "weather": "陰時多雲短暫陣雨或雷雨",
+             "weatherid": "17"
+            },
+            {
+             "dataDate": "2022-06-01",
+             "weather": "多雲時陰短暫陣雨或雷雨",
+             "weatherid": "16"
+            },
+            {
+             "dataDate": "2022-06-02",
+             "weather": "多雲午後短暫雷陣雨",
+             "weatherid": "22"
+            },
+            {
+             "dataDate": "2022-06-03",
+             "weather": "多雲午後短暫雷陣雨",
+             "weatherid": "22"
+            }
+           ]
+          },
+          "MaxT": {
+           "daily": [
+            {
+             "dataDate": "2022-05-28",
+             "temperature": "30"
+            },
+            {
+             "dataDate": "2022-05-29",
+             "temperature": "31"
+            },
+            {
+             "dataDate": "2022-05-30",
+             "temperature": "30"
+            },
+            {
+             "dataDate": "2022-05-31",
+             "temperature": "29"
+            },
+            {
+             "dataDate": "2022-06-01",
+             "temperature": "29"
+            },
+            {
+             "dataDate": "2022-06-02",
+             "temperature": "28"
+            },
+            {
+             "dataDate": "2022-06-03",
+             "temperature": "29"
+            }
+           ]
+          },
+          "MinT": {
+           "daily": [
+            {
+             "dataDate": "2022-05-28",
+             "temperature": "23"
+            },
+            {
+             "dataDate": "2022-05-29",
+             "temperature": "23"
+            },
+            {
+             "dataDate": "2022-05-30",
+             "temperature": "24"
+            },
+            {
+             "dataDate": "2022-05-31",
+             "temperature": "24"
+            },
+            {
+             "dataDate": "2022-06-01",
+             "temperature": "23"
+            },
+            {
+             "dataDate": "2022-06-02",
+             "temperature": "23"
+            },
+            {
+             "dataDate": "2022-06-03",
+             "temperature": "23"
+            }
+           ]
+          }
+         }
+        },
+        {
+         "locationName": "東部地區",
+         "weatherElements": {
+          "Wx": {
+           "daily": [
+            {
+             "dataDate": "2022-05-28",
+             "weather": "多雲時陰",
+             "weatherid": "5"
+            },
+            {
+             "dataDate": "2022-05-29",
+             "weather": "多雲時陰",
+             "weatherid": "5"
+            },
+            {
+             "dataDate": "2022-05-30",
+             "weather": "多雲",
+             "weatherid": "4"
+            },
+            {
+             "dataDate": "2022-05-31",
+             "weather": "多雲午後短暫雷陣雨",
+             "weatherid": "22"
+            },
+            {
+             "dataDate": "2022-06-01",
+             "weather": "陰時多雲",
+             "weatherid": "6"
+            },
+            {
+             "dataDate": "2022-06-02",
+             "weather": "多雲",
+             "weatherid": "4"
+            },
+            {
+             "dataDate": "2022-06-03",
+             "weather": "陰時多雲",
+             "weatherid": "6"
+            }
+           ]
+          },
+          "MaxT": {
+           "daily": [
+            {
+             "dataDate": "2022-05-28",
+             "temperature": "29"
+            },
+            {
+             "dataDate": "2022-05-29",
+             "temperature": "30"
+            },
+            {
+             "dataDate": "2022-05-30",
+             "temperature": "30"
+            },
+            {
+             "dataDate": "2022-05-31",
+             "temperature": "28"
+            },
+            {
+             "dataDate": "2022-06-01",
+             "temperature": "28"
+            },
+            {
+             "dataDate": "2022-06-02",
+             "temperature": "29"
+            },
+            {
+             "dataDate": "2022-06-03",
+             "temperature": "29"
+            }
+           ]
+          },
+          "MinT": {
+           "daily": [
+            {
+             "dataDate": "2022-05-28",
+             "temperature": "24"
+            },
+            {
+             "dataDate": "2022-05-29",
+             "temperature": "24"
+            },
+            {
+             "dataDate": "2022-05-30",
+             "temperature": "25"
+            },
+            {
+             "dataDate": "2022-05-31",
+             "temperature": "25"
+            },
+            {
+             "dataDate": "2022-06-01",
+             "temperature": "24"
+            },
+            {
+             "dataDate": "2022-06-02",
+             "temperature": "24"
+            },
+            {
+             "dataDate": "2022-06-03",
+             "temperature": "24"
+            }
+           ]
+          }
+         }
+        },
+        {
+         "locationName": "東南部地區",
+         "weatherElements": {
+          "Wx": {
+           "daily": [
+            {
+             "dataDate": "2022-05-28",
+             "weather": "多雲時陰",
+             "weatherid": "5"
+            },
+            {
+             "dataDate": "2022-05-29",
+             "weather": "晴時多雲",
+             "weatherid": "2"
+            },
+            {
+             "dataDate": "2022-05-30",
+             "weather": "多雲時晴",
+             "weatherid": "3"
+            },
+            {
+             "dataDate": "2022-05-31",
+             "weather": "多雲",
+             "weatherid": "4"
+            },
+            {
+             "dataDate": "2022-06-01",
+             "weather": "多雲",
+             "weatherid": "4"
+            },
+            {
+             "dataDate": "2022-06-02",
+             "weather": "多雲",
+             "weatherid": "4"
+            },
+            {
+             "dataDate": "2022-06-03",
+             "weather": "多雲",
+             "weatherid": "4"
+            }
+           ]
+          },
+          "MaxT": {
+           "daily": [
+            {
+             "dataDate": "2022-05-28",
+             "temperature": "31"
+            },
+            {
+             "dataDate": "2022-05-29",
+             "temperature": "32"
+            },
+            {
+             "dataDate": "2022-05-30",
+             "temperature": "32"
+            },
+            {
+             "dataDate": "2022-05-31",
+             "temperature": "29"
+            },
+            {
+             "dataDate": "2022-06-01",
+             "temperature": "29"
+            },
+            {
+             "dataDate": "2022-06-02",
+             "temperature": "29"
+            },
+            {
+             "dataDate": "2022-06-03",
+             "temperature": "29"
+            }
+           ]
+          },
+          "MinT": {
+           "daily": [
+            {
+             "dataDate": "2022-05-28",
+             "temperature": "24"
+            },
+            {
+             "dataDate": "2022-05-29",
+             "temperature": "24"
+            },
+            {
+             "dataDate": "2022-05-30",
+             "temperature": "25"
+            },
+            {
+             "dataDate": "2022-05-31",
+             "temperature": "25"
+            },
+            {
+             "dataDate": "2022-06-01",
+             "temperature": "24"
+            },
+            {
+             "dataDate": "2022-06-02",
+             "temperature": "24"
+            },
+            {
+             "dataDate": "2022-06-03",
+             "temperature": "24"
+            }
+           ]
+          }
+         }
+        }
+       ]
+      },
+      "agrAdvices": {
+       "agrForecasts": {
+        "location": [
+         {
+          "locationName": "北部地區",
+          "weatherElements": {
+           "daily": [
+            {
+             "dataDate": "2022-05-28",
+             "degreeDay": "16.5",
+             "accumulatedTemperature": "16.5"
+            },
+            {
+             "dataDate": "2022-05-29",
+             "degreeDay": "17.5",
+             "accumulatedTemperature": "34.0"
+            },
+            {
+             "dataDate": "2022-05-30",
+             "degreeDay": "17.5",
+             "accumulatedTemperature": "51.5"
+            },
+            {
+             "dataDate": "2022-05-31",
+             "degreeDay": "16.0",
+             "accumulatedTemperature": "67.5"
+            },
+            {
+             "dataDate": "2022-06-01",
+             "degreeDay": "16.0",
+             "accumulatedTemperature": "83.5"
+            },
+            {
+             "dataDate": "2022-06-02",
+             "degreeDay": "16.5",
+             "accumulatedTemperature": "100.0"
+            },
+            {
+             "dataDate": "2022-06-03",
+             "degreeDay": "16.0",
+             "accumulatedTemperature": "116.0"
+            }
+           ]
+          }
+         },
+         {
+          "locationName": "中部地區",
+          "weatherElements": {
+           "daily": [
+            {
+             "dataDate": "2022-05-28",
+             "degreeDay": "19.0",
+             "accumulatedTemperature": "19.0"
+            },
+            {
+             "dataDate": "2022-05-29",
+             "degreeDay": "19.0",
+             "accumulatedTemperature": "38.0"
+            },
+            {
+             "dataDate": "2022-05-30",
+             "degreeDay": "19.0",
+             "accumulatedTemperature": "57.0"
+            },
+            {
+             "dataDate": "2022-05-31",
+             "degreeDay": "18.5",
+             "accumulatedTemperature": "75.5"
+            },
+            {
+             "dataDate": "2022-06-01",
+             "degreeDay": "18.0",
+             "accumulatedTemperature": "93.5"
+            },
+            {
+             "dataDate": "2022-06-02",
+             "degreeDay": "18.0",
+             "accumulatedTemperature": "111.5"
+            },
+            {
+             "dataDate": "2022-06-03",
+             "degreeDay": "18.5",
+             "accumulatedTemperature": "130.0"
+            }
+           ]
+          }
+         },
+         {
+          "locationName": "南部地區",
+          "weatherElements": {
+           "daily": [
+            {
+             "dataDate": "2022-05-28",
+             "degreeDay": "18.0",
+             "accumulatedTemperature": "18.0"
+            },
+            {
+             "dataDate": "2022-05-29",
+             "degreeDay": "18.0",
+             "accumulatedTemperature": "36.0"
+            },
+            {
+             "dataDate": "2022-05-30",
+             "degreeDay": "18.0",
+             "accumulatedTemperature": "54.0"
+            },
+            {
+             "dataDate": "2022-05-31",
+             "degreeDay": "18.0",
+             "accumulatedTemperature": "72.0"
+            },
+            {
+             "dataDate": "2022-06-01",
+             "degreeDay": "18.0",
+             "accumulatedTemperature": "90.0"
+            },
+            {
+             "dataDate": "2022-06-02",
+             "degreeDay": "18.0",
+             "accumulatedTemperature": "108.0"
+            },
+            {
+             "dataDate": "2022-06-03",
+             "degreeDay": "17.5",
+             "accumulatedTemperature": "125.5"
+            }
+           ]
+          }
+         },
+         {
+          "locationName": "東北部地區",
+          "weatherElements": {
+           "daily": [
+            {
+             "dataDate": "2022-05-28",
+             "degreeDay": "16.5",
+             "accumulatedTemperature": "16.5"
+            },
+            {
+             "dataDate": "2022-05-29",
+             "degreeDay": "17.0",
+             "accumulatedTemperature": "33.5"
+            },
+            {
+             "dataDate": "2022-05-30",
+             "degreeDay": "17.0",
+             "accumulatedTemperature": "50.5"
+            },
+            {
+             "dataDate": "2022-05-31",
+             "degreeDay": "16.5",
+             "accumulatedTemperature": "67.0"
+            },
+            {
+             "dataDate": "2022-06-01",
+             "degreeDay": "16.0",
+             "accumulatedTemperature": "83.0"
+            },
+            {
+             "dataDate": "2022-06-02",
+             "degreeDay": "15.5",
+             "accumulatedTemperature": "98.5"
+            },
+            {
+             "dataDate": "2022-06-03",
+             "degreeDay": "16.0",
+             "accumulatedTemperature": "114.5"
+            }
+           ]
+          }
+         },
+         {
+          "locationName": "東部地區",
+          "weatherElements": {
+           "daily": [
+            {
+             "dataDate": "2022-05-28",
+             "degreeDay": "16.5",
+             "accumulatedTemperature": "16.5"
+            },
+            {
+             "dataDate": "2022-05-29",
+             "degreeDay": "17.0",
+             "accumulatedTemperature": "33.5"
+            },
+            {
+             "dataDate": "2022-05-30",
+             "degreeDay": "17.5",
+             "accumulatedTemperature": "51.0"
+            },
+            {
+             "dataDate": "2022-05-31",
+             "degreeDay": "16.5",
+             "accumulatedTemperature": "67.5"
+            },
+            {
+             "dataDate": "2022-06-01",
+             "degreeDay": "16.0",
+             "accumulatedTemperature": "83.5"
+            },
+            {
+             "dataDate": "2022-06-02",
+             "degreeDay": "16.5",
+             "accumulatedTemperature": "100.0"
+            },
+            {
+             "dataDate": "2022-06-03",
+             "degreeDay": "16.5",
+             "accumulatedTemperature": "116.5"
+            }
+           ]
+          }
+         },
+         {
+          "locationName": "東南部地區",
+          "weatherElements": {
+           "daily": [
+            {
+             "dataDate": "2022-05-28",
+             "degreeDay": "17.5",
+             "accumulatedTemperature": "17.5"
+            },
+            {
+             "dataDate": "2022-05-29",
+             "degreeDay": "18.0",
+             "accumulatedTemperature": "35.5"
+            },
+            {
+             "dataDate": "2022-05-30",
+             "degreeDay": "18.5",
+             "accumulatedTemperature": "54.0"
+            },
+            {
+             "dataDate": "2022-05-31",
+             "degreeDay": "17.0",
+             "accumulatedTemperature": "71.0"
+            },
+            {
+             "dataDate": "2022-06-01",
+             "degreeDay": "16.5",
+             "accumulatedTemperature": "87.5"
+            },
+            {
+             "dataDate": "2022-06-02",
+             "degreeDay": "16.5",
+             "accumulatedTemperature": "104.0"
+            },
+            {
+             "dataDate": "2022-06-03",
+             "degreeDay": "16.5",
+             "accumulatedTemperature": "120.5"
+            }
+           ]
+          }
+         }
+        ]
+       },
+       "cropStatistics": {
+        "crop": {
+         "cropName": "水稻",
+         "cardinalTemperatures": {
+          "growingStage": {
+           "description": "稻作生長溫度",
+           "minimum": "10",
+           "maximum": "40"
+          }
+         },
+         "location": [
+          {
+           "locationName": "臺中地區",
+           "cropBreed": "臺農67號",
+           "statistics": {
+            "fifteenYears": {
+             "description": "一期稻作生育日數及生育期總積溫(15年平均值)",
+             "timePeriod": [
+              {
+               "description": "插秧至抽穗",
+               "growingDays": "83",
+               "accumulatedTemperature": "1067.71"
+              },
+              {
+               "description": "插秧至收穫",
+               "growingDays": "121",
+               "accumulatedTemperature": "1744.07"
+              }
+             ]
+            },
+            "thisYear": {
+             "description": "111年一期稻作積溫值 (各改良場豐歉試驗臺農67號)",
+             "dibblingDate": "2022-02-26",
+             "timePeriod": {
+              "description": "插秧至本日",
+              "startDate": "2022-02-26",
+              "endDate": "2022-05-26",
+              "growingDays": "90",
+              "accumulatedTemperature": "1153.75"
+             }
+            }
+           }
+          },
+          {
+           "locationName": "高雄地區",
+           "cropBreed": "臺農67號",
+           "statistics": {
+            "fifteenYears": {
+             "description": "一期稻作生育日數及生育期總積溫(15年平均值)",
+             "timePeriod": [
+              {
+               "description": "插秧至抽穗",
+               "growingDays": "93",
+               "accumulatedTemperature": "1155.48"
+              },
+              {
+               "description": "插秧至收穫",
+               "growingDays": "124",
+               "accumulatedTemperature": "1699.05"
+              }
+             ]
+            },
+            "thisYear": {
+             "description": "111年一期稻作積溫值 (各改良場豐歉試驗臺農67號)",
+             "dibblingDate": "2022-01-13",
+             "timePeriod": {
+              "description": "插秧至本日",
+              "startDate": "2022-01-13",
+              "endDate": "2022-05-26",
+              "growingDays": "134",
+              "accumulatedTemperature": "1870.35"
+             }
+            }
+           }
+          },
+          {
+           "locationName": "花蓮地區",
+           "cropBreed": "臺農67號",
+           "statistics": {
+            "fifteenYears": {
+             "description": "一期稻作生育日數及生育期總積溫(15年平均值)",
+             "timePeriod": [
+              {
+               "description": "插秧至抽穗",
+               "growingDays": "98",
+               "accumulatedTemperature": "1090.23"
+              },
+              {
+               "description": "插秧至收穫",
+               "growingDays": "136",
+               "accumulatedTemperature": "1697.62"
+              }
+             ]
+            },
+            "thisYear": {
+             "description": "111年一期稻作積溫值 (各改良場豐歉試驗臺農67號)",
+             "dibblingDate": "2022-02-07",
+             "timePeriod": {
+              "description": "插秧至本日",
+              "startDate": "2022-02-07",
+              "endDate": "2022-05-26",
+              "growingDays": "109",
+              "accumulatedTemperature": "1260.55"
+             }
+            }
+           }
+          }
+         ]
+        }
+       },
+       "agrReport": {
+        "section": [
+         {
+          "content": "未來1個月長期天氣展望,模式預測未來第1週期初鋒面北抬,各地雨勢減緩、氣溫回暖,天氣暫趨穩定,惟午後仍有局部雷陣雨;第1週期末受鋒面接近及西南風增強影響,降雨以西半部為主,易有局部短暫陣雨或雷雨發生。第2週臺灣持續受西南風影響,亦仍有鋒面影響之機會,環境相對較不穩定,各 地有出現較大雨勢的可能,請隨時注意本局所發布的各項最新預報資訊。",
+          "subsection": [
+           {
+            "content": "第1週:平均氣溫預測,各地以「低於」氣候正常值的機率最小;雨量預測,各地以「接近」氣候正常值的機率最大。"
+           },
+           {
+            "content": "第2週:平均氣溫預測,各地以「接近」氣候正常值的機率最大;雨量預測,各地以「接近」氣候正常值的機率最大。"
+           },
+           {
+            "content": "第1~4週:1個月之展望,預測平均氣溫及雨量,各地以「接近」氣候正常值的機率最大。"
+           }
+          ]
+         },
+         {
+          "content": "今年年初氣候不穩定,寒流、鋒面及霪雨陸續發生,造成雲林縣多項作物受損,西瓜、經縣政府爭取已獲中央公告辦理現金救助之鄉鎮有二崙、大埤、崙背、麥寮、林內、東勢、台西、四湖、褒忠及元長。香瓜辦理現金救助之鄉鎮有二崙、崙背、麥寮。",
+          "subsection": [
+           {
+            "content": "縣長張麗善表示,褒忠、元長的西瓜,農委會亦於5月23日公告,請在當地有種植西瓜的農民,如有受損達20%以上,可於5月24日到6月2日止到當地公所辦理申報。另農業處接獲農民反應大埤、水林西瓜、香瓜、洋香瓜受到5月霪雨影響有腐爛及植株死亡的問題、於是在5月24日邀集台南區農業改良場及農糧署中區分署到現場勘查確認災請,現場勘查確認後已達救助標準,本府將建議農委會公告大埤鄉西瓜、香瓜;水林鄉西瓜、洋香瓜現金救助。"
+           },
+           {
+            "content": "另有關行政院農業委員會預告修正「農業天然災害救助辦法」調整救助額度自5月1日起適用案,因本年度年初氣候不穩定,寒流、鋒面及霪雨陸續發生,造成多項作物受損,有些作物並非即時反應受損狀況而以遲發性辦理救助,恐造成同一時期種植之同項作物受損,領到之救助金有所差別,雲林縣政府已於5月6日以府農務二字第1112516785號函建議行政院農業委員會本次修法追溯自111年1月1日起適用,讓同時種植同樣作物且有受損農民能領到相同救助金。獲農委會111年5月11日農輔字第1110219839號函同意追溯,並於111年5月20日農輔字第1110022974號令公告。西瓜原救助金額每公頃6萬元,調高為6萬2,000元;香瓜、洋香瓜原救助金額每公頃7萬5,000元,調高為8萬元,並追溯自111年1月1日起適用。"
+           },
+           {
+            "content": "柑橘類也有農友反映結果不良問題,因礙於柑橘類尚有生理落果因素,無法在現階段辦理現勘確認受損情形,雲林縣政府已與台南區農業改良場專家聯繫,將俟柑橘類生理落果結束後再至柑橘類園區了解受損情形。縣長張麗善再次請農民所種植之農作物如有災損情況,請到當地公所通報,縣府會彙整轄內災損後邀請改良場所及農糧署組成勘災小組確認災情並函報農委會建議救助。(參考資料來源:農業知識入口網)"
+           }
+          ]
+         },
+         {
+          "content": "新北市政府辦理「生態服務給付」計畫,凡位於新北市三芝區、石門區、金山區、貢寮區、雙溪區及萬里區的水梯田,以及金山區和貢寮區水田農友即日起至111年6月底前都可提出申請,每公頃最高有機會領取7萬元生態薪水。",
+          "subsection": [
+           {
+            "content": "為保全淺山及平原之森林、農田、濕地等重要生態系,行政院農業委員會林務局於110年度起推動「瀕危物種及重要棲地生態服務給付推動計畫」,透過獎勵生態給付方案提供誘因,友善重要棲地及保護瀕危物種族群。新北市雙溪區、三芝區、石門區、金山區、貢寮區及萬里區的水梯田及金山區和貢寮區水田經營者皆可申請,重要棲地給付主要分為棲地維護、棲地營造、棲地成效三個部分。棲地維護部分,「水梯田」需維持終年蓄(湛)水狀態,且不使用除草劑、獸鋏、毒餌等,並符合農藥安全檢出規範條件,「水田」維護條件與水梯田相同,差異在於維持蓄(湛)水狀態為休耕期間而非全年。棲地營造部分包含草生田埂、生態溝、田埂加寬等作為增加生物棲息區域改善。另棲地成效部分,須農友配合執行生態觀察紀錄。若在棲地維護、營造及成效觀察等三階段都達到標準,每公頃最高有機會領取每年7萬元生態薪水。"
+           },
+           {
+            "content": "新北市農業局長李玟表示,新北農業的核心價值就是「健康」,市府肩負生產及品質把關任務,把「信任」概念融入到農產品牌,讓民眾對品牌信賴,且這幾年推動青農力輔導、農業創生、農村再生、友善田園區域及生態服務給付等計畫,就是要讓農業與生態共榮,讓環境永續發展。歡迎更多人加入生態服務給付計畫,相關訊息可至新北市政府農業局網站「重要公告」區下載申請文件及相關規定,或電洽農業局陳先生(電話:02-29603456分機3114)。(參考資料來源:農業知識入口網)"
+           }
+          ]
+         },
+         {
+          "content": "近日媒體報導苗栗縣銅鑼鄉竹森太陽光電開發案,威脅石虎生態棲地環境,農委會堅決用地變更不得影響生態棲地之立場。並表示,已多次函請苗栗縣政府應落實「應避免位於石虎重要棲地範圍進行開發行為」之審查原則,重申相關用地及變更應避開石虎重要棲地範圍。",
+          "subsection": [
+           {
+            "content": "農委會表示,為維護生態棲地環境,本會林務局已於自然保育網公開野生動物重要棲息環境等地理圖資,以利開發業者事先避開野生動物重要棲地範圍。又苗栗縣淺山地區為石虎族群交流遷移廊道及石虎重要棲地範圍,已納入林務局國土生態保育綠色網絡建置計畫之關注區,且為加強保護野生動物重要棲地及生態環境,已通函地方政府應從嚴審查,並要求「應避免位於石虎重要棲地範圍進行開發行為」。針對引發爭議之苗栗縣銅鑼鄉竹森太陽光電案,係苗栗縣政府109年8月1日前受理之太陽光電設施開發案件,由該府依「農業主管機關同意農業用地變更使用審查作業要點」第13點規定,本權責審議,尚毋須徵詢農委會審查同意。惟鑒於開發面積達8.3公頃,開發範圍全區位於「石虎重要棲地」範圍,農委會於110年5月5日、111年1月25日二度函請苗栗縣政府應落實「應避免位於石虎重要棲地範圍進行開發行為」之審查原則,並於該府111年1月26日召開專責審議小組會議決議「審認同意確認」後,農委會再於111年3月3日及5月20日函復苗栗縣政府太陽光電廠之選址應避開石虎重要棲地範圍,並表達用地變更不得影響生態棲地之堅定立場。"
+           },
+           {
+            "content": "配合國家再生能源政策推動,農業綠能發展以不影響農漁民權益、農漁業發展及生態棲地環境的前提下逐步推動,使農業與綠能共存共榮。農委會鄭重重申,開發案倘位於野生動植物重要棲地範圍,農委會秉持不同意變更之立場,避免農地遭任意變更及影響生態環境。也將協請內政部釐清,倘若中央主管機關對地方開發計畫審議結果有不同意見,是否再予地方政府補充修正。至於苗栗縣政府倘仍維持同意位於石虎重要棲地之開發案,未來該項開發對於生態棲地環境造成負面衝擊,則請苗栗縣政府全權負責,並回應社會各界之監督。(參考資料來源:農業知識入口網)"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}
